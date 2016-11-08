@@ -12,4 +12,7 @@ describe "fizzbuzz" do
   it "returns 0 for number 0" do
     expect(fizzbuzz(0)).to eq 0
   end
+  it "returns 'buzz' for number 10" do
+    expect(fizzbuzz(10)).to eq 'buzz'
+  end
 end
