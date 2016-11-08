@@ -9,4 +9,7 @@ describe "fizzbuzz" do
   it 'returns "buzz" for number 5' do
     expect(fizzbuzz(5)).to eq 'buzz'
   end
+  it "returns 0 for number 0" do
+    expect(fizzbuzz(0)).to eq 0
+  end
 end
