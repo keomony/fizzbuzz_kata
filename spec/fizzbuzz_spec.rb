@@ -17,6 +17,10 @@ describe "Fizzbuzz" do
   end
 
   it "should know when the number is divisible by 3 and 5" do
-    expect(is_divisible_by_15?(6)).to eq true
+    expect(is_divisible_by_15?(15)).to eq true
+  end
+
+  it "should know when the nubmer is NOT divisible by 3 and 5" do
+    expect(is_divisible_by_15?(16)).to eq false
   end
 end
