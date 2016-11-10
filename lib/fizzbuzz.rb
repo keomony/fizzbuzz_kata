@@ -3,5 +3,5 @@ def is_divisible_by_3?(number)
 end
 
 def is_divisible_by_5?(number)
-  true
+  number % 5 == 0
 end
