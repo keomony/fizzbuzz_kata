@@ -54,4 +54,9 @@ describe "Fizzbuzz" do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
 
+  it "should return numbers if not multiples of 3 nor 5" do
+    expect(fizzbuzz(1)).to eq 1
+    expect(fizzbuzz(8)).to eq 8
+  end
+
 end
