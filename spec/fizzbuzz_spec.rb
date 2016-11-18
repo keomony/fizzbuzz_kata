@@ -46,4 +46,8 @@ describe "Fizzbuzz" do
     expect(fizzbuzz(3)).to eq 'fizz'
   end
 
+  it "should out put 'buzz' for multiples by 5" do
+    expect(fizzbuzz(5)).to eq 'buzz'
+  end
+
 end
