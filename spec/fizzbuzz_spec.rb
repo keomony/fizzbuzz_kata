@@ -59,4 +59,8 @@ describe "Fizzbuzz" do
     expect(fizzbuzz(8)).to eq 8
   end
 
+  it "should raise an error if number is not from 1 to 100 range" do
+    expect{fizzbuzz(200)}.to raise_error "only number from 1 to 100"
+  end
+
 end
