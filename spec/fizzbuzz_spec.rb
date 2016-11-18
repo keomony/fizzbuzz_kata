@@ -42,16 +42,16 @@ describe "Fizzbuzz" do
 
   end
 
-  it "should out put 'fizz' for multiples by 3" do
+  it "should output 'fizz' for multiples of 3" do
     expect(fizzbuzz(3)).to eq 'fizz'
   end
 
-  it "should out put 'buzz' for multiples by 5" do
+  it "should output 'buzz' for multiples of 5" do
     expect(fizzbuzz(5)).to eq 'buzz'
   end
 
-  it "shoudl out put 'fizzbuzz' for multiples by 3 and 5" do
+  it "should output 'fizzbuzz' for multiples of 3 and 5" do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
-  
+
 end
